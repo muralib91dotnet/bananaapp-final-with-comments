@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Store, select } from '@ngrx/store';
-import { Observable } from 'rxjs';import { AppState, getMyBanana } from '../app.state';
+import { Observable } from 'rxjs';
+import { AppState, getMyBanana } from '../app.state';
 import { GetNewBanana, PeelBanana, EatBanana, InitiateTimeHop } from './state';
 
 @Component({
